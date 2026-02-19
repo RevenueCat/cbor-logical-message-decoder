@@ -7,7 +7,7 @@ USER 0
 
 RUN yum install -y envsubst
 
-ADD cbordecoder-1.0-SNAPSHOT.jar /kafka/libs
+ADD cbordecoder-1.0.jar /kafka/libs
 ADD kafka_connect_standalone_run.sh /kafka/bin/kafka_connect_standalone_run.sh
 ADD kafka_connect_config_generator.sh /kafka/bin/kafka_connect_config_generator.sh
 ADD eventrouter.properties /tmp/eventrouter.properties
